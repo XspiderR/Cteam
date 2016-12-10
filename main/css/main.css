@@ -1,0 +1,189 @@
+
+body{
+  background: url("../images/main-back.png") no-repeat 0 0;
+}
+
+.logo{
+  position: absolute;
+  top: 39px;
+  left: 106px;
+  width: 211px;
+  height: 117px;
+  text-indent: -99999em;
+  background: url("../images/logo.png") no-repeat 0 0;
+  z-index: 1;
+}
+
+.gnb{
+  position: absolute;
+  top: 40px;
+  left: 387px;
+  width: 1464px;
+  height: 114px;
+  z-index: 1;
+  text-indent: -99999em;
+}
+
+.items{
+  position: relative;
+  float: left;
+  height: 114px;
+  background: url("../images/gnb2.png")no-repeat 0 0;
+}
+
+/*.gnb-item.first:hover{*/
+  /*;*/
+/*}*/
+
+.gnb-item-first{
+  width: 249px;
+  background-position: -1px 0;
+}
+
+.gnb-item-second{
+  width: 319px;
+  background-position: -251px 0;
+}
+
+.gnb-item-third{
+  width: 308px;
+  background-position: -569px 0;
+}
+
+.gnb-item-forth{
+  width: 294px;
+  background-position: -877px 0;
+}
+
+.gnb-item-fifth{
+  width: 294px;
+  background-position: -1142px 0;
+}
+
+.gnb-item-link-1{
+  display: block;
+  width: 249px;
+  height: 114px;
+}
+
+.gnb-item-link-2{
+  display: block;
+  width: 319px;
+  height: 114px;
+}
+
+.gnb-item-link-3{
+  display: block;
+  width: 308px;
+  height: 114px;
+}
+
+.gnb-item-link-4{
+  display: block;
+  width: 294px;
+  height: 114px;
+}
+
+.gnb-item-link-5{
+  display: block;
+  width: 294px;
+  height: 114px;
+}
+
+.main-wrap{
+  position: relative;
+  clear: both;
+  width: 100%;
+  height: 974px;
+}
+
+.cloud{
+  display: block;
+  position:absolute;
+  top:0;
+  left:0;
+  background: url("../images/cloud2.png")no-repeat 0 0;
+  width: 100%;
+  height: 238px;
+  text-indent: -99999em;
+}
+
+.cloud.drop{
+  top: 70px;
+}
+
+.top-mush{
+  position: absolute;
+  top: 355px;
+  left: 1147px;
+}
+
+.top-mush img{
+  width: 66px;
+  height: 66px;
+}
+
+.bottom-mush{
+  position: absolute;
+  top: 815px;
+  left: 1118px;
+}
+
+.bottom-mush .devil{
+  width: 61px;
+  height: 58px;
+  z-index: 1;
+}
+
+.bottom-mush .mt{
+  width: 185px;
+  height: 72px;
+}
+
+.coins{
+  position: absolute;
+  top: 337px;
+  left: 950px;
+  width: 108px;
+  height: 38px;
+}
+
+.coin{
+  width: 33px;
+  height: 38px;
+}
+
+.mario{
+  position: absolute;
+  left: 100px;
+  bottom: 84px;
+  transition: left 3s cubic-bezier(.16,1.34,.85,-0.12);
+}
+
+.mario-img{
+  width: 300px;
+  height: 136px;
+}
+
+.mario-arrival{
+  left: 1600px;
+}
+
+.travel-start{
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  top: 675px;
+  bottom: 195px;
+  left: 225px;
+}
+
+.travel-end{
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  top: 470px;
+  bottom: 415px;
+  right: 120px;
+  text-align: center;
+}
